@@ -1,0 +1,28 @@
+body {
+    background-color: #3D56B2;
+}
+.login-wrapper {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.login-wrapper form {
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    margin-bottom: 25px;
+}
+.login::placeholder {
+    color: #fff
+}
+.login-btn {
+    margin-top: 10px;
+}
+.forgotPass-btn {
+    margin-top: 10px;
+    margin-left: 160px;
+    letter-spacing: 2px;
+}
